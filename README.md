@@ -15,126 +15,50 @@ I'm building everything step-by-step, starting from the fundamentals of Node.js 
 The repository is organized into sequential folders, where each folder represents a major backend concept.
 
 ### 📁 1. File Handling
-Learned how to work with Node.js' native `fs` module for:
-- Reading files
-- Writing files
-- Updating files
-- Deleting files
 
 ---
 
 ### 📁 2. Moduling
-Understanding how Node.js structures applications using:
-- CommonJS Modules
-- `require()`
-- `module.exports`
-- Splitting code into reusable modules
 
 ---
 
 ### 📁 3. HTTP Web Server
-Built a web server from scratch using Node's native `http` module to understand:
-- Request & Response objects
-- Routing
-- Status codes
-- Headers
 
 ---
 
 ### 📁 4. Express Framework
-Moved from the native HTTP module to Express.js and learned:
-- Express server setup
-- Routing
-- Request handling
-- Cleaner backend architecture
 
 ---
 
 ### 📁 5. REST API
-Designed RESTful APIs by implementing:
-- GET
-- POST
-- PUT
-- PATCH
-- DELETE
-
-Also learned how to:
-- Send JSON responses
-- Receive JSON requests
-- Build CRUD APIs
 
 ---
 
 ### 📁 6. Middleware
-Explored Express middleware, including:
-- Custom middleware
-- Inline middleware
-- Logging middleware
-- Request preprocessing
-- Understanding the request-response lifecycle
 
 ---
 
 ### 📁 7. MongoDB
-Connected Express with MongoDB using Mongoose.
-
-Covered:
-- Database connections
-- Schemas
-- Models
-- CRUD Operations
-- Querying documents
 
 ---
 
 ### 📁 8. Model View Controller (MVC)
-Refactored the project into the MVC architecture by separating:
-- Models
-- Views
-- Controllers
-
-This made the codebase cleaner, scalable, and easier to maintain.
 
 ---
 
 ### 📁 9. Projects (URL SHORTNER)
-A complete backend project where everything learned so far was combined.
-
-Features:
-- Generate Short URLs
-- Redirect to Original URLs
-- Store data in MongoDB
-- Track Visit History
-- MVC Architecture
 
 ---
 
 ### 📁 10. Server Side Rendering (SSR)
-Learned how to render HTML directly from the backend using:
-- EJS Templates
-- Dynamic Views
-- Passing Data to Templates
 
 ---
 
 ### 📁 11. Authentication
-Implemented **Stateful Authentication** using:
-- UUID
-- Cookies
-- Hash Maps
-- Session Management
-
-Protected private routes and handled user login sessions.
 
 ---
 
 ### 📁 12. JWT
-Upgraded authentication from Stateful to Stateless using:
-- JSON Web Tokens (JWT)
-- Cookie Parser
-- Protected Routes
-- User Authorization
-- Login Authentication
 
 ---
 
