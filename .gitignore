@@ -1,0 +1,53 @@
+# ==========================================
+# NODE.JS / EXPRESS DEPENDENCIES
+# ==========================================
+# Never commit this folder! Let others run 'npm install' to generate their own.
+node_modules/
+
+# ==========================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+# Contains sensitive data like your MongoDB URI and JWT Secret Key.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# LOG FILES
+# ==========================================
+# Ignore NPM and Yarn error logs.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+# macOS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# IDE / EDITOR CONFIGURATIONS
+# ==========================================
+# Ignore VS Code workspace settings if you want to keep them local.
+.vscode/
+
+# Ignore JetBrains IDE (WebStorm, IntelliJ) folders.
+.idea/
+
+# ==========================================
+# TESTING & COVERAGE
+# ==========================================
+# In case you add Jest or Mocha tests later.
+coverage/
+.nyc_output/

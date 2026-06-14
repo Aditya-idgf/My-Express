@@ -39,7 +39,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Initialize database connection
-connectDB('mongodb://127.0.0.1:27017/Project-Url-v1');
+connectDB('mongodb://127.0.0.1:27017/Project-Url-[9]');
 
 // Mount the URL router for all '/url' endpoints
 app.use('/url', router);

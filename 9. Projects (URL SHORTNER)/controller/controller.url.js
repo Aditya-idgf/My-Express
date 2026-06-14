@@ -2,7 +2,6 @@ const {nanoid, urlAlphabet} = require('nanoid')
 const URL = require('../model/model.url')
 
 async function handleGenerateShortURL(req, res) {
-    console.log(req)
     const body = req.body;
     if(!body.url) return res.status(400).json({msg:'URL IS REQUIRED'}); 
 
