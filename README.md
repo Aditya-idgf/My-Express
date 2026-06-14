@@ -230,5 +230,3 @@ Feel free to:
 * 💬 Suggest improvements
 
 Happy Coding! 🚀
-
-```
