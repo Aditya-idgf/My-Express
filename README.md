@@ -1,4 +1,3 @@
-````md
 # My Express.js Learning Journey 🚀
 
 Welcome to my backend development learning repository!
@@ -232,5 +231,4 @@ Feel free to:
 
 Happy Coding! 🚀
 
-```
 ```
