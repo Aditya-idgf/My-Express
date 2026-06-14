@@ -51,3 +51,5 @@ Desktop.ini
 # In case you add Jest or Mocha tests later.
 coverage/
 .nyc_output/
+
+.gitignore
