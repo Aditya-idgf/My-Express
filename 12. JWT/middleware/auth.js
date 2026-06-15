@@ -15,7 +15,7 @@ async function restrictToLoggedInUserOnly(req, res,next) {
     req.user = user;
     next();
 }
-
+ 
 async function chechAuth(req, res , next) {
     const userUid = req.cookies?.uid; 
     console.log("[chechAuth] COOKIE UID:", userUid);
