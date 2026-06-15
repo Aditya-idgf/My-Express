@@ -62,12 +62,13 @@ The repository is organized into sequential folders, where each folder represent
 
 ---
 
----
-
 ### 📁 13. Cookies
 
 ---
 
+### 📁 14. Authorization
+
+---
 # 🛠️ Tech Stack
 
 - **Runtime:** Node.js
