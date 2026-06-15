@@ -18,15 +18,16 @@ async function handleUserLogin(req,res) {
         error : 'Invalid Username Or Password'
     })
 
-    // const sessionId = uuidv4();
-    // setUser(sessionId, user);
-
     const token = setUser(user);
 
     console.log("SESSION CREATED [JWT] :", token);
 
-    res.cookie('uid', token);
-    return res.redirect('/');
+    // res.cookie('uid', token, {
+    //     domain: 'https://www.google.com/'
+    // });
+    // return res.redirect('/');
+
+    res.json({ token });
 }   
 
 module.exports = {handleUserSignup, handleUserLogin}
