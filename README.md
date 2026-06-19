@@ -69,6 +69,10 @@ The repository is organized into sequential folders, where each folder represent
 ### 📁 14. Authorization
 
 ---
+
+### 📁 15. Discord Bot Tutorial
+
+---
 # 🛠️ Tech Stack
 
 - **Runtime:** Node.js
